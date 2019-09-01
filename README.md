@@ -3,7 +3,7 @@
 ## Usage
 
 ``` bash
-./chicken-time.py <weight-of-chicken-in-kilos
+./chicken-time.py <weight-of-chicken-in-kilos>
 ```
 
 e.g.
