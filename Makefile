@@ -1,2 +1,2 @@
-install: ./chicken-time.py
-	install ./chicken-time.py ~/bin
+install: ./chicken_time.py
+	install ./chicken_time.py /usr/local/bin
