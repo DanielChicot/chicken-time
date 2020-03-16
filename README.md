@@ -17,6 +17,6 @@ positional arguments:
 e.g.
 
 ``` bash
-./chicken-time.py 1.5
+chicken_time.py 1.5
 90
 ```
