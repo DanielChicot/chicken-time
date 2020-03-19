@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" Calculate the time a chicken needs to be in the oven. """
+""" Calculate, show the time a chicken needs to be in the oven. """
 
 import argparse
 
