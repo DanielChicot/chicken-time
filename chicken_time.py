@@ -4,8 +4,7 @@
 
 import argparse
 import re
-from pprint import pprint
-from datetime import time, tzinfo, timedelta
+from datetime import timedelta
 
 
 def main():
@@ -25,8 +24,8 @@ def main():
     resting_time = timedelta(minutes=15)
     in_oven_time = carve_time - roasting_time - resting_time
     oven_on_time = in_oven_time - timedelta(minutes=15)
-    print(oven_on_time)
-    print(in_oven_time)
+    print(f"Oven on: {oven_on_time}")
+    print(f"In oven: {in_oven_time}")
 
 
 if __name__ == "__main__":
